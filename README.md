@@ -1,6 +1,10 @@
 # td_install
 Automated Tokyo Dark macOS port creation tool.
 
+**Disclaimer:** This is a third-party modification to Tokyo Dark and is not
+affiliated in any way with Cherrymochi. This does not contain any assets from
+Tokyo Dark and requires a Steam login which has purchased Tokyo Dark to build.
+
 ## Installation
 To install, run `pip3 install td_install` in Terminal. This application was
 developed in Python 3.6.4, but will likely work in any version of Python that
