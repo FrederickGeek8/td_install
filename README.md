@@ -1,4 +1,6 @@
-# td_install
+# Tokyo Dark macOS Port
+[![Join the chat at https://gitter.im/td_install/Lobby](https://badges.gitter.im/FrederickGeek8/td_install.svg)](https://gitter.im/td_install/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Automated [Tokyo Dark](http://www.tokyodark.com/) macOS port creation tool.
 
 **Disclaimer:** This is a third-party modification to
@@ -8,9 +10,9 @@ Cherrymochi. This does not contain any assets from
 purchased [Tokyo Dark](http://www.tokyodark.com/) to build.
 
 ## Installation
-To install, run `pip3 install td_install` in Terminal. This application was
-developed in Python 3.6.4, but will likely work in any version of Python that
-is above version 3.
+To install, run `pip install td_install` in Terminal. This application was
+developed in Python 3.6.4, but will likely work in any modern version of Python
+(either of version 2 or 3).
 
 ## Usage
 There are two modes that you can run `td_install` in: *Installation Mode* and
