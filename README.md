@@ -23,11 +23,13 @@ However, there are some bugs in SteamCMD that makes it that if you suspect
 something is wrong, perhaps *Debugging Mode* will be better.
 
 **To install Tokyo Dark via *Installation Mode***
+
 In Terminal, run `td_install`. The installer will will ask for your Steam
 credentials as well as a installation directory at the end, so it is a
 semi-interactive procedure.
 
 **To install Tokyo Dark via *Debugging Mode***
+
 Debugging mode will show the output of all internal commands run by `td_install`.
 In order to install Tokyo Dark in this manner, run `td_debug` in Terminal.
 
