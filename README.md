@@ -2,6 +2,7 @@
 [![Join the chat at https://gitter.im/td_install/Lobby](https://badges.gitter.im/FrederickGeek8/td_install.svg)](https://gitter.im/td_install/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Automated [Tokyo Dark](http://www.tokyodark.com/) macOS port creation tool.
+Built to run on macOS. Will not run on other platforms.
 
 **Disclaimer:** This is a third-party modification to
 [Tokyo Dark](http://www.tokyodark.com/) and is not affiliated in any way with
