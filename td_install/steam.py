@@ -1,6 +1,7 @@
 import subprocess
 import tarfile
 import patch
+from builtins import input
 from pkg_resources import resource_filename
 from getpass import getpass
 from .task import Task

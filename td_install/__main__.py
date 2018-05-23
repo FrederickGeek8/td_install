@@ -2,6 +2,7 @@ from .install import InstallTools
 from .steam import SteamCMD
 from .nwjs import NWjs
 from .imagepig import ImagePig
+from builtins import input
 import atexit
 
 

@@ -11,13 +11,11 @@ setuptools.setup(
     description="Tokyo Dark macOS port creation tool.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=['patch==1.*'],
-    extras_require={
-        'Progress Bar': ['progressbar2']
-    },
+    install_requires=['future', 'patch==1.*', 'progressbar2'],
     url="https://github.com/FrederickGeek8/td_install",
     packages=setuptools.find_packages(),
     classifiers=(
+        "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: MacOS :: MacOS X",
@@ -29,5 +27,7 @@ setuptools.setup(
             'td_debug = td_install.__main__:debug'
         ]
     },
+    platforms="MacOS X",
+    license="MIT License",
     include_package_data=True
 )
