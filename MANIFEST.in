@@ -1,0 +1,2 @@
+include *.txt
+recursive-include td_install *.txt *.py *.patch
