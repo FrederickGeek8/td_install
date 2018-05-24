@@ -26,6 +26,7 @@ def main(debug=False):
     helper.move_icons()
 
     steam.patch_load()
+    steam.steam_id()
     steam.download_api()
 
     print('Done.')

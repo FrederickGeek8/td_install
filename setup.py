@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="td_install",
-    version="0.0.1",
+    version="0.0.2",
     author="Frederick Morlock",
     author_email="FrederickGeek8@gmail.com",
     description="Tokyo Dark macOS port creation tool.",

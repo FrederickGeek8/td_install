@@ -5,6 +5,7 @@ from builtins import input
 from pkg_resources import resource_filename
 from getpass import getpass
 from .task import Task
+import shutil
 
 try:
     import urllib.request as urllib
@@ -81,6 +82,11 @@ class SteamCMD(Task):
             'https://github.com/Facepunch/Facepunch.Steamworks.Unity/raw/master/libsteam_api.dylib',
             'nwjs-v0.24.3-osx-x64/nwjs.app/Contents/Resources/app.nw/libsteam_api.dylib',
             reporthook=self.progress_hook)
+
+    def steam_id(self):
+        print('Improving Steam integration...')
+        shutil.copy2('nwjs-v0.24.3-osx-x64/nwjs.app/Contents/Resources/app.nw/steam_app_id.txt',
+                     'nwjs-v0.24.3-osx-x64/nwjs.app/Contents/Resources/app.nw/steam_appid.txt')
 
     def patch_load(self):
         print('Patching small bug...')
